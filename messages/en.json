@@ -1,0 +1,122 @@
+{"nav": {
+    "home": "Home",
+    "services": "Services",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language"
+  },
+    "hero":{
+        "text1":"hello, I'm",
+        "text2":"Ahmed Barkhed",
+        "text3":"Frontend Developer",
+        "button1":"Download Cv",
+        "button2":"Contact Me"
+    },
+    "servicesSection": {
+    "title": "What I Offer 🚀",
+    "subtitle": "I build modern, responsive, and high-performance websites using the latest front-end technologies — tailored to meet your goals and impress your users.",
+    "services": [
+      {
+        "title": "Modern UI Design",
+        "description": "Attractive and user-friendly interfaces focused on delivering a smooth user experience."
+      },
+      {
+        "title": "Fully Responsive Websites",
+        "description": "Websites that work efficiently across all devices — mobiles, tablets, and desktops."
+      },
+      {
+        "title": "Converting Designs to Real Websites",
+        "description": "Turning Figma or Adobe XD designs into functional websites using HTML, CSS, and React."
+      },
+      {
+        "title": "API Integration",
+        "description": "Connecting your site to external services to display dynamic data like products or weather."
+      },
+      {
+        "title": "Multilingual Support",
+        "description": "Creating websites in two or more languages (like Arabic and English) to reach a broader audience."
+      },
+      {
+        "title": "Performance & UX Optimization",
+        "description": "Improving website speed and performance for a seamless and professional user experience."
+      }
+    ]
+  },
+
+  "experienceSection": {
+    "title": "Experience 🔬",
+    "subtitle": "I specialize in modern front-end development using the latest tools and frameworks to build fast, responsive, and scalable web applications."
+  },
+  "projectsSection": {
+    "title": "My Projects 🧩",
+    "subtitle": "A showcase of creative and functional web projects built with modern technologies, highlighting my passion for front-end and full-stack development."
+  },
+   "projects": {
+      "hounter": {
+        "title": "Hounter Houses Real Estate",
+        "description": "A responsive real estate website showcasing the latest properties with a sleek and user-friendly design.",
+        "type": "front-end"
+      },
+      "weatherApp": {
+        "title": "Weather App",
+        "description": "A responsive weather website that allows searching for any location and includes a feature to use your current location for accurate weather updates.",
+        "type": "front-end"
+      },
+      "noteApp": {
+        "title": "Note Application",
+        "description": "A full-stack MERN note-taking app with features like Google login, password reset via Gmail, offline notification, and responsive design.",
+        "type": "Full-Stack MERN"
+      },
+      "baraco": {
+        "title": "Baraco - Global Trade & Logistics",
+        "description": "A project connecting Oman with neighboring African countries, offering trade and investment services to boost economic cooperation.",
+        "type": "front-end"
+      },
+      "nike": {
+        "title": "Responsive Nike Products",
+        "description": "A responsive Nike products website with a clean and modern design, featuring a product catalog, filter options, and a shopping cart.",
+        "type": "front-end"
+      },
+      "foodiland": {
+        "title": "Foodiland Restaurant",
+        "description": "A fully responsive restaurant website designed for all devices, offering a sleek design and smooth user experience.",
+        "type": "front-end"
+      },
+      "prayer": {
+        "title": "Prayer Times Project",
+        "description": "A responsive web application that calculates and displays the next prayer time and the remaining time until the next prayer. Designed for seamless use across all devices.",
+        "type": "front-end"
+      },
+      "football": {
+        "title": "Football Academy Project",
+        "description": "An online platform dedicated to football academies, offering official sponsorships and various payment methods. It includes discounts and promotions for sponsors, providing a streamlined experience for managing academy funding.",
+        "type": "front-end"
+      },
+        "buttons": {
+        "github": "GitHub",
+        "preview": "Live Preview",
+        "private": "GitHub (Private)"
+      }
+  },
+  "contactSection": {
+    "title": "Contact us 📩",
+    "subtitle": "Got an idea, question, or interested in collaborating? Don’t hesitate to reach out — I’ll get back to you as soon as possible."
+  },
+  "form": {
+    "nameLabel": "Your Name",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "yourname@example.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+123 456 7890",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Write your message here...",
+    "submitBtn": "Send Message",
+    "sendingBtn": "Sending...",
+    "success": "Your message has been sent successfully!",
+    "error": "Something went wrong. Please try again later."
+  }
+}
+
+

@@ -1,0 +1,119 @@
+{"nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "hero": {
+    "text1": "Hola, soy",
+    "text2": "Ahmed Barkhed",
+    "text3": "Desarrollador Frontend",
+    "button1": "Descargar CV",
+    "button2": "Contáctame"
+  },
+  "servicesSection": {
+    "title": "Lo que ofrezco 🚀",
+    "subtitle": "Construyo sitios web modernos, responsivos y de alto rendimiento utilizando las últimas tecnologías frontend, adaptados a tus objetivos e ideales para impresionar a tus usuarios.",
+    "services": [
+      {
+        "title": "Diseño de interfaz moderno",
+        "description": "Interfaces atractivas y fáciles de usar centradas en ofrecer una experiencia fluida al usuario."
+      },
+      {
+        "title": "Sitios web totalmente responsivos",
+        "description": "Sitios web que funcionan eficientemente en todos los dispositivos: móviles, tablets y ordenadores."
+      },
+      {
+        "title": "Convertir diseños en sitios reales",
+        "description": "Transformación de diseños de Figma o Adobe XD en sitios web funcionales usando HTML, CSS y React."
+      },
+      {
+        "title": "Integración de API",
+        "description": "Conexión de tu sitio con servicios externos para mostrar datos dinámicos como productos o el clima."
+      },
+      {
+        "title": "Soporte multilingüe",
+        "description": "Creación de sitios en dos o más idiomas (como árabe e inglés) para llegar a una audiencia más amplia."
+      },
+      {
+        "title": "Optimización de rendimiento y UX",
+        "description": "Mejorar la velocidad y el rendimiento del sitio para una experiencia de usuario fluida y profesional."
+      }
+    ]
+  },
+  "experienceSection": {
+    "title": "Experiencia 🔬",
+    "subtitle": "Me especializo en desarrollo frontend moderno utilizando las últimas herramientas y frameworks para construir aplicaciones web rápidas, responsivas y escalables."
+  },"projectsSection": {
+    "title": "Mis Proyectos 🧩",
+    "subtitle": "Una muestra de proyectos web creativos y funcionales construidos con tecnologías modernas, destacando mi pasión por el desarrollo front-end y full-stack."
+  }, 
+
+ "projects": {
+  "hounter": {
+    "title": "Hounter Casas Inmobiliarias",
+    "description": "Un sitio web inmobiliario responsivo que muestra las propiedades más recientes con un diseño elegante y fácil de usar.",
+    "type": "Front-end"
+  },
+  "weatherApp": {
+    "title": "Aplicación del Clima",
+    "description": "Un sitio web responsivo del clima que permite buscar cualquier ubicación e incluye una función para usar tu ubicación actual y obtener actualizaciones precisas del clima.",
+    "type": "Front-end"
+  },
+  "noteApp": {
+    "title": "Aplicación de Notas",
+    "description": "Una aplicación de notas Full-Stack MERN con funciones como inicio de sesión con Google, restablecimiento de contraseña por Gmail, notificaciones sin conexión y diseño responsivo.",
+    "type": "Full-Stack MERN"
+  },
+  "baraco": {
+    "title": "Baraco - Comercio y Logística Global",
+    "description": "Un proyecto que conecta a Omán con los países africanos vecinos, ofreciendo servicios comerciales y de inversión para fortalecer la cooperación económica.",
+    "type": "Front-end"
+  },
+  "nike": {
+    "title": "Productos Nike Responsivos",
+    "description": "Un sitio web responsivo de productos Nike con un diseño moderno y limpio, que incluye un catálogo de productos, opciones de filtrado y un carrito de compras.",
+    "type": "Front-end"
+  },
+  "foodiland": {
+    "title": "Restaurante Foodiland",
+    "description": "Un sitio web de restaurante totalmente responsivo, diseñado para todos los dispositivos, con un diseño atractivo y una experiencia de usuario fluida.",
+    "type": "Front-end"
+  },
+  "prayer": {
+    "title": "Proyecto de Horarios de Oración",
+    "description": "Una aplicación web responsiva que calcula y muestra la hora de la próxima oración y el tiempo restante. Diseñada para usarse perfectamente en todos los dispositivos.",
+    "type": "Front-end"
+  },
+  "football": {
+    "title": "Proyecto de Academia de Fútbol",
+    "description": "Una plataforma en línea dedicada a academias de fútbol, que ofrece patrocinios oficiales y varios métodos de pago. Incluye descuentos y promociones para patrocinadores, proporcionando una experiencia optimizada para gestionar fondos de la academia.",
+    "type": "Front-end"
+  },
+  "buttons": {
+    "github": "GitHub",
+    "preview": "Vista en Vivo",
+    "private": "GitHub (Privado)"
+  }
+},
+   "contactSection": {
+    "title": "Contáctanos 📩",
+    "subtitle": "¿Tienes una idea, una pregunta o estás interesado en colaborar? No dudes en ponerte en contacto — te responderé lo antes posible."
+  },
+  "form": {
+    "nameLabel": "Tu Nombre",
+    "namePlaceholder": "Juan Pérez",
+    "emailLabel": "Tu Correo Electrónico",
+    "emailPlaceholder": "tunombre@ejemplo.com",
+    "phoneLabel": "Número de Teléfono",
+    "phonePlaceholder": "+34 123 456 789",
+    "messageLabel": "Tu Mensaje",
+    "messagePlaceholder": "Escribe tu mensaje aquí...",
+    "submitBtn": "Enviar Mensaje",
+    "sendingBtn": "Enviando...",
+    "success": "¡Tu mensaje ha sido enviado con éxito!",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
+  }
+}

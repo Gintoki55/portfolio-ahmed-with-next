@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* ✅ نظام الألوان */
+:root {
+  --primary: #1E40AF; /* أزرق داكن */
+  --secondary: #F59E0B; /* برتقالي */
+  --background: #F3F4F6; /* رمادي فاتح */
+  --text-primary: #111827; /* أسود داكن */
+  --text-secondary: #6B7280; /* رمادي متوسط */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  background: linear-gradient(
+    180deg,
+    rgba(59, 130, 246, 0) 60%,
+    rgba(59, 130, 246, 0.3) 100%
+  );
+}
+
+html {
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+
+}
+
+html[dir="rtl"] {
+  font-family: var(--font-cairo);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) scale(var(--tw-scale-x));
+  }
+  50% {
+    transform: translateY(-10px) scale(var(--tw-scale-x));
+  }
+}
+
+.animate-float {
+  animation-name: float;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

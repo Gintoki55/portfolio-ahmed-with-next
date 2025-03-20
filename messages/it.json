@@ -1,0 +1,118 @@
+{ "nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "experience": "Esperienza",
+    "projects": "Progetti",
+    "contact": "Contatto",
+    "language": "Lingua"
+  },
+  "hero": {
+    "text1": "Ciao, sono",
+    "text2": "Ahmed Barkhed",
+    "text3": "Sviluppatore Frontend",
+    "button1": "Scarica CV",
+    "button2": "Contattami"
+  },
+  "servicesSection": {
+    "title": "Cosa Offro 🚀",
+    "subtitle": "Realizzo siti web moderni, reattivi e ad alte prestazioni utilizzando le più recenti tecnologie frontend — su misura per raggiungere i tuoi obiettivi e stupire i tuoi utenti.",
+    "services": [
+      {
+        "title": "Design UI Moderno",
+        "description": "Interfacce attraenti e facili da usare focalizzate su un'esperienza utente fluida."
+      },
+      {
+        "title": "Siti Web completamente reattivi",
+        "description": "Siti web che funzionano perfettamente su tutti i dispositivi: smartphone, tablet e desktop."
+      },
+      {
+        "title": "Conversione di design in siti reali",
+        "description": "Trasformazione di design da Figma o Adobe XD in siti web funzionali usando HTML, CSS e React."
+      },
+      {
+        "title": "Integrazione API",
+        "description": "Connessione del sito a servizi esterni per mostrare dati dinamici come prodotti o meteo."
+      },
+      {
+        "title": "Supporto multilingua",
+        "description": "Creazione di siti in due o più lingue (come arabo e inglese) per raggiungere un pubblico più ampio."
+      },
+      {
+        "title": "Ottimizzazione delle prestazioni e UX",
+        "description": "Miglioramento della velocità e delle prestazioni del sito per un'esperienza utente fluida e professionale."
+      }
+    ]
+  },
+  "experienceSection": {
+    "title": "Esperienza 🔬",
+    "subtitle": "Mi specializzo nello sviluppo frontend moderno utilizzando gli strumenti e i framework più recenti per costruire applicazioni web veloci, responsive e scalabili."
+  },"projectsSection": {
+    "title": "I Miei Progetti 🧩",
+    "subtitle": "Una vetrina di progetti web creativi e funzionali realizzati con tecnologie moderne, che evidenzia la mia passione per lo sviluppo front-end e full-stack."
+  },
+  "projects": {
+    "hounter": {
+      "title": "Hounter Case Immobiliari",
+      "description": "Un sito web immobiliare responsive che mostra le proprietà più recenti con un design elegante e facile da usare.",
+      "type": "Front-end"
+    },
+    "weatherApp": {
+      "title": "App Meteo",
+      "description": "Un sito meteo responsive che consente di cercare qualsiasi località e include una funzione per utilizzare la tua posizione attuale per aggiornamenti meteo precisi.",
+      "type": "Front-end"
+    },
+    "noteApp": {
+      "title": "Applicazione Note",
+      "description": "Un'applicazione per prendere appunti Full-Stack MERN con funzionalità come accesso con Google, reset della password via Gmail, notifiche offline e design responsive.",
+      "type": "Full-Stack MERN"
+    },
+    "baraco": {
+      "title": "Baraco - Commercio e Logistica Globale",
+      "description": "Un progetto che collega l'Oman ai paesi africani vicini, offrendo servizi di commercio e investimento per rafforzare la cooperazione economica.",
+      "type": "Front-end"
+    },
+    "nike": {
+      "title": "Prodotti Nike Responsive",
+      "description": "Un sito responsive per i prodotti Nike con un design pulito e moderno, che include un catalogo prodotti, opzioni di filtro e un carrello.",
+      "type": "Front-end"
+    },
+    "foodiland": {
+      "title": "Ristorante Foodiland",
+      "description": "Un sito web per ristorante completamente responsive, progettato per tutti i dispositivi, con un design elegante e un'esperienza utente fluida.",
+      "type": "Front-end"
+    },
+    "prayer": {
+      "title": "Progetto Orari di Preghiera",
+      "description": "Un'applicazione web responsive che calcola e mostra l'orario della prossima preghiera e il tempo rimanente. Progettata per un utilizzo fluido su tutti i dispositivi.",
+      "type": "Front-end"
+    },
+    "football": {
+      "title": "Progetto Accademia di Calcio",
+      "description": "Una piattaforma online dedicata alle accademie di calcio, che offre sponsorizzazioni ufficiali e vari metodi di pagamento. Include sconti e promozioni per gli sponsor, offrendo un'esperienza semplificata nella gestione dei fondi dell'accademia.",
+      "type": "Front-end"
+    },
+    "buttons": {
+      "github": "GitHub",
+      "preview": "Anteprima Live",
+      "private": "GitHub (Privato)"
+    }
+  },
+  "contactSection": {
+    "title": "Contattaci 📩",
+    "subtitle": "Hai un'idea, una domanda o sei interessato a collaborare? Non esitare a contattarci — ti risponderò al più presto."
+  },
+  "form": {
+    "nameLabel": "Il Tuo Nome",
+    "namePlaceholder": "Giovanni Rossi",
+    "emailLabel": "La Tua Email",
+    "emailPlaceholder": "iltuonome@esempio.com",
+    "phoneLabel": "Numero di Telefono",
+    "phonePlaceholder": "+39 123 456 7890",
+    "messageLabel": "Il Tuo Messaggio",
+    "messagePlaceholder": "Scrivi il tuo messaggio qui...",
+    "submitBtn": "Invia Messaggio",
+    "sendingBtn": "Invio in corso...",
+    "success": "Il tuo messaggio è stato inviato con successo!",
+    "error": "Qualcosa è andato storto. Riprova più tardi."
+  }
+}
