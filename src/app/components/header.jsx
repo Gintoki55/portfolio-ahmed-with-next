@@ -4,9 +4,12 @@ import React from 'react'
 import { useTranslations } from 'next-intl';
 import InputJsx from './input';
 import AnchorTemporaryDrawer from './drawer';
-
+import { usePathname } from 'next/navigation';
 export default function Header() {
   const t = useTranslations("nav");
+      const pathname = usePathname();
+      const currentLang = pathname.split('/')[1];
+      const isArabic = currentLang === 'ar';
 
   const navItems = [
     { path: '/', label: 'home' },
@@ -30,7 +33,7 @@ export default function Header() {
 
         {/* Navigation Links */}
         <div className="flex items-center justify-between max-lg:hidden"> 
-          <ul className="flex p-4 gap-8">
+          <ul className="flex p-4 gap-8" dir={isArabic ? 'rtl' : 'ltr'}>
             {navItems.map(({ path, label }, index) => (
               <li key={index}>
                 <Link
