@@ -1,6 +1,5 @@
 import ExperiencePage from "../../components/experiencePage";
 
-
 export const metadata = {
   title: "Experience | Ahmed Portfolio",
   description: "Ahmed's front-end development experience using modern technologies like React, Next.js, Tailwind CSS, and more.",

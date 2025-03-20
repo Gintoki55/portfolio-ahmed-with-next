@@ -1,5 +1,3 @@
-'use client'
-
 import React from 'react'
 import ServicesJsx from '../../components/services'
 import { useTranslations } from 'next-intl'
