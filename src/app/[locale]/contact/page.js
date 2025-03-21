@@ -7,14 +7,6 @@ export const metadata = {
   keywords: ["Contact", "Ahmed", "Message", "Form", "Web Developer", "Front-end"],
   robots: "index, follow",
   authors: [{ name: "Ahmed" }],
-  openGraph: {
-    title: "Contact Us | Ahmed Portfolio",
-    description: "Get in touch with Ahmed for any inquiries, ideas, or collaborations.",
-    url: "https://yourdomain.com/contact",
-    siteName: "Ahmed Portfolio",
-    locale: "en_US",
-    type: "website",
-  }
 };
 
 export default function ContactPage() {

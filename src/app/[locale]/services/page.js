@@ -7,14 +7,6 @@ export const metadata = {
   description: "Discover Ahmed's professional web development services, including responsive design, front-end development, and modern UI solutions.",
   keywords: ["Ahmed", "Web Developer", "Services", "Front-End", "Next.js", "React", "Portfolio"],
   robots: "index, follow",
-  openGraph: {
-    title: "Ahmed's Services",
-    description: "Explore professional web services by Ahmed.",
-    url: "https://your-domain.com/services",
-    siteName: "Ahmed Portfolio",
-    locale: "en_US",
-    type: "website",
-  },
 };
 
 function Servicespage() {

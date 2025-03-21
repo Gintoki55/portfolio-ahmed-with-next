@@ -35,14 +35,7 @@ export const metadata = {
     "Next.js",
     "JavaScript",
   ],
-  openGraph: {
-    title: "Ahmed's Portfolio - Web Developer",
-    description: "Explore Ahmed's projects and skills in modern web development.",
-    url: "https://yourdomain.com",
-    siteName: "Ahmed's Portfolio",
-    locale: "en_US",
-    type: "website",
-  },
+  robots: "index, follow",
   icons: {
     icon: "/favicon.ico",
   },

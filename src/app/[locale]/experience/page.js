@@ -5,14 +5,6 @@ export const metadata = {
   description: "Ahmed's front-end development experience using modern technologies like React, Next.js, Tailwind CSS, and more.",
   keywords: ["Ahmed", "Experience", "Front-End", "React", "Next.js", "HTML", "CSS", "Tailwind", "JavaScript"],
   robots: "index, follow",
-  openGraph: {
-    title: "Ahmed's Experience",
-    description: "Explore Ahmed's experience in front-end web development.",
-    url: "https://your-domain.com/experience",
-    siteName: "Ahmed Portfolio",
-    locale: "en_US",
-    type: "website",
-  },
 };
 export default function Page() {
   return (

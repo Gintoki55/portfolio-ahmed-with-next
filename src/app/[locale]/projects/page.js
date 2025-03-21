@@ -6,14 +6,6 @@ export const metadata = {
   title: "Projects | Ahmed Portfolio",
   description: "A collection of Ahmed's front-end development projects showcasing skills in React, Next.js, Tailwind CSS, and more.",
   keywords: ["Ahmed", "Projects", "React", "Next.js", "Portfolio", "Tailwind", "JavaScript"],
-  openGraph: {
-    title: "Ahmed's Projects",
-    description: "Explore Ahmed's creative web development projects.",
-    url: "https://your-domain.com/projects",
-    siteName: "Ahmed Portfolio",
-    locale: "en_US",
-    type: "website",
-  },
   robots: "index, follow",
 };
 
