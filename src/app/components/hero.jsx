@@ -52,7 +52,7 @@ export default function Hero() {
           {/* Buttons */}
           <motion.div variants={childVariant} className='w-full flex justify-around mt-5'>
 
-            <a href="files/cv.pdf" target="_blank" rel="noopener noreferrer" download>
+            <a href="files/cv.pdf" rel="noopener noreferrer" download>
               <motion.div
                 whileTap={{ scale: 0.95 }}
                 whileHover={{ scale: 1.05 }}
