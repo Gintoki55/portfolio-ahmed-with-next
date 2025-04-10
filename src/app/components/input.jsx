@@ -1,6 +1,7 @@
 'use client';
 
 import { useRouter, usePathname } from 'next/navigation';
+import { useEffect, useState } from 'react';
 import { HiChevronDown } from 'react-icons/hi';
 
 const languages = [
@@ -13,15 +14,25 @@ const languages = [
 export default function InputJsx() {
   const router = useRouter();
   const pathname = usePathname();
+  const [currentLang, setCurrentLang] = useState('en');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const storedLang = localStorage.getItem('language');
+      const langFromUrl = pathname.split('/')[1];
+      setCurrentLang(storedLang || langFromUrl);
+    }
+  }, [pathname]);
 
   const handleChange = (lang) => {
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('language', lang);
+    }
     const segments = pathname.split('/');
-    segments[1] = lang; // استبدال كود اللغة في المسار
+    segments[1] = lang;
     const newPath = segments.join('/');
     router.push(newPath);
   };
-
-  const currentLang = pathname.split('/')[1];
 
   return (
     <div className="relative sm:w-40 w-20">

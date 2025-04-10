@@ -1,7 +1,13 @@
-import {defineRouting} from 'next-intl/routing';
-import {createNavigation} from 'next-intl/navigation';
+import { defineRouting } from 'next-intl/routing';
 
 export const routing = defineRouting({
-  locales: ['en', 'es', "ar", "it"],
-  defaultLocale: 'en'
+  locales: ['en', 'ar', 'es', 'it'],
+  defaultLocale: 'en',
+  detectBrowserLanguage: false,
+  cookie: {
+    name: 'language',
+    path: '/',
+    maxAge: 365 * 24 * 60 * 60, // مدة صلاحية الـ Cookie
+  },
 });
+

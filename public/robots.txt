@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ahmedbarkhed.vercel.app/sitemap.xml
-Host: https://ahmedbarkhed.vercel.app
