@@ -7,6 +7,7 @@ const skillsItems = [
   { label: "CSS", image: "/images/css.png", background: "#264de4", hover: "#e5e8fb" },
   { label: "JavaScript", image: "/images/js.png", background: "#f0db4f", hover: "#fdfae2" },
   { label: "React", image: "/images/react.png", background: "#61DBFB", hover: "#eafdff" },
+  { label: "typescript", image: "/images/typescript.png", background: "#61DBFB", hover: "#eafdff" },
   { label: "Next.js", image: "/images/next.png", background: "#000000", hover: "#f2f2f2" },
   { label: "Material-UI", image: "/images/mui.png", background: "#007FFF", hover: "#e1f1ff" },
   { label: "Tailwind CSS", image: "/images/tailwind.png", background: "#06b6d4", hover: "#e4f9fd" },
