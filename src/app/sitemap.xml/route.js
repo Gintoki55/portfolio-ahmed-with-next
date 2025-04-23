@@ -5,7 +5,7 @@ const staticRoutes = ['', '/services', '/experience', '/projects', '/contact'];
 export async function GET() {
   const urls = locales.flatMap((locale) =>
     staticRoutes.map((path) => {
-      const fullPath = path === '' ? `/${locale}` : `/${locale}${path}`;
+      const fullPath = path === '' ? `/${locale}` : `/`;
       return `
         <url>
           <loc>${baseUrl}${fullPath}</loc>

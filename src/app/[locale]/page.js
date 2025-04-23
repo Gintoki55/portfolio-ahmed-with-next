@@ -5,7 +5,7 @@ export const metadata = {
   title: "Ahmed's Portfolio | Home",
   description: "Welcome to my portfolio. Discover my work, projects, and skills.",
   keywords: ['Ahmed', 'portfolio', 'web developer', 'React', 'frontend'],
-  robots: "index, follow",
+  robots: "noindex, nofollow",
 };
 
 function Homepage() {
